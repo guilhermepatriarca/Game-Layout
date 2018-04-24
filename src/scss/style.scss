@@ -52,10 +52,11 @@ h1 {
 }
 
 #join-container{
-    max-height: 100%;
+    width: 100%;
     opacity: 0.9;
     filter: alpha(opacity=90);
-    background: url('/assets/screen1.jpeg') no-repeat;
+    background-image: url('/assets/screen1.jpeg');
+    background-size: cover;
 
     h2{
         letter-spacing: 4px;
